@@ -14,3 +14,7 @@ a {
 a:hover {
   color: #004999;
 }
+
+p {
+  line-height: 1.6;
+}

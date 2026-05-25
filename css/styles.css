@@ -18,3 +18,7 @@ a:hover {
 p {
   line-height: 1.6;
 }
+
+h2 {
+  margin-bottom: 16px;
+}

@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Nouveau IBM";
-  src: url("../fonts/nouveau-ibm.ttf") format("truetype");
+  src: url("../fonts/Nouveau_IBM.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Eczar";
-  src: url("../fonts/eczar.woff2") format("woff2");
+  src: url("../fonts/Eczar-Regular.ttf") format("truetype");
 }
 
 body {

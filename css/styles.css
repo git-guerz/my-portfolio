@@ -22,6 +22,7 @@
   --space-5: 20px;
   --space-6: 24px;
   --space-7: 32px;
+  --space-8: 48px;
 
   --radius-sm: 8px;
 
@@ -30,25 +31,53 @@
 
   --content-width: 800px;
   --line-height-body: 1.6;
+  --line-height-heading: 1.2;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  padding: var(--space-5);
   font-family: var(--font-body);
+  margin: 0;
+  padding: var(--space-5);
+}
+
+header,
+main {
   max-width: var(--content-width);
   margin: 0 auto;
+}
+
+header {
+  margin-bottom: var(--space-7);
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--font-heading);
+  line-height: var(--line-height-heading);
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: var(--space-3);
+}
+
+h2,
+h3 {
+  margin-bottom: var(--space-3);
 }
 
 p {
   line-height: var(--line-height-body);
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+  max-width: 70ch;
 }
 
 a {
@@ -63,6 +92,7 @@ a:hover {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-4);
   padding: var(--space-3) var(--space-4);
   margin-bottom: var(--space-6);
@@ -71,5 +101,5 @@ nav {
 }
 
 section {
-  margin-bottom: var(--space-7);
+  margin-bottom: var(--space-8);
 }

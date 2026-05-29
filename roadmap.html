@@ -6,19 +6,184 @@
   <title>Roadmap | Guerz</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
+<body class="roadmap-page">
   <header>
     <h1>Guerz Dev Roadmap</h1>
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="roadmap.html">Roadmap</a>
+      <a href="contact.html">Contact</a>
+      <a href="shop.html">Shop</a>
     </nav>
   </header>
 
+  <div class="phase-nav">
+    <a href="#phase1" class="phase-pill">Foundation</a>
+    <a href="#phase2" class="phase-pill">Frontend</a>
+    <a href="#phase3" class="phase-pill">Backend</a>
+    <a href="#phase4" class="phase-pill">Python AI</a>
+    <a href="#phase5" class="phase-pill">Projects</a>
+    <a href="#phase6" class="phase-pill">OSS/AGI</a>
+  </div>
+
   <main>
     <h2>Web Dev Roadmap</h2>
-    <p>This page will show my current 24-week roadmap and progress.</p>
+    <p>This is my 24-week learning roadmap for becoming a full-stack web developer.</p>
+
+    <section class="roadmap-hero">
+      <div class="hero-kicker">2025 — 2027</div>
+      <h2 class="hero-title">
+        Become a full-stack dev,<br />
+        Python builder,<br />
+        and AI creator.
+      </h2>
+      <p class="hero-subtitle">
+        This roadmap is trimmed for fast reading and easy edits. It keeps the 6-phase structure,
+        adds a 24-week active learning frame, and highlights today’s Day B focus.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-label">phases</div>
+          <div class="stat-value">6</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">active learning frame</div>
+          <div class="stat-value">24w</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">current position</div>
+          <div class="stat-value">Week 3</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">today’s lane</div>
+          <div class="stat-value">Day B</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="roadmap-phases">
+      <section id="roadmap">
+        <div class="eyebrow">learning phases</div>
+        <h2 class="section-title">The roadmap</h2>
+
+        <div class="timeline">
+          <article class="card phase" id="phase1">
+            <div class="phase-top">
+              <div>
+                <span class="badge cyan">foundation</span>
+                <h3 class="phase-title">Phase 1 — Dev environment and core tools</h3>
+              </div>
+              <div class="check">mostly done</div>
+            </div>
+            <p class="phase-desc">
+              Terminal, Git, editor workflow, Markdown, and deployment basics.
+            </p>
+            <ul>
+              <li>Git fluency</li>
+              <li>Terminal confidence</li>
+              <li>Clean workflow habits</li>
+            </ul>
+          </article>
+
+          <article class="card phase" id="phase2">
+            <div class="phase-top">
+              <div>
+                <span class="badge cyan">frontend</span>
+                <h3 class="phase-title">Phase 2 — HTML, CSS, JavaScript</h3>
+              </div>
+              <div class="check">in progress</div>
+            </div>
+            <p class="phase-desc">
+              HTML structure, CSS layout, responsive design, Flexbox, then JavaScript basics.
+            </p>
+            <ul>
+              <li>Semantic HTML</li>
+              <li>Responsive CSS</li>
+              <li>Flexbox and layout</li>
+              <li>Vanilla JS and DOM</li>
+            </ul>
+          </article>
+
+          <article class="card phase" id="phase3">
+            <div class="phase-top">
+              <div>
+                <span class="badge violet">backend</span>
+                <h3 class="phase-title">Phase 3 — Node, PHP, MySQL, APIs</h3>
+              </div>
+              <div class="check">queued</div>
+            </div>
+            <p class="phase-desc">
+              Server-side work, auth, hosting ops, and database-backed apps.
+            </p>
+            <ul>
+              <li>Node.js</li>
+              <li>PHP / WordPress</li>
+              <li>MySQL / MariaDB</li>
+              <li>REST APIs</li>
+            </ul>
+          </article>
+
+          <article class="card phase" id="phase4">
+            <div class="phase-top">
+              <div>
+                <span class="badge cyan">python ai</span>
+                <h3 class="phase-title">Phase 4 — Python mastery and AI integration</h3>
+              </div>
+              <div class="check">queued</div>
+            </div>
+            <p class="phase-desc">
+              Python scripting, automation, data work, and local AI tooling.
+            </p>
+            <ul>
+              <li>Python 3 core</li>
+              <li>FastAPI and scripts</li>
+              <li>Ollama / local LLMs</li>
+              <li>Audio and data tools</li>
+            </ul>
+          </article>
+
+          <article class="card phase" id="phase5">
+            <div class="phase-top">
+              <div>
+                <span class="badge violet">projects</span>
+                <h3 class="phase-title">Phase 5 — Ship real things</h3>
+              </div>
+              <div class="check">future</div>
+            </div>
+            <p class="phase-desc">
+              Build things that actually live on your sites or serve decomress-style workflows.
+            </p>
+            <ul>
+              <li>Portfolio rebuild</li>
+              <li>Discogs tool</li>
+              <li>DJ/audio tool</li>
+              <li>Collective site</li>
+            </ul>
+          </article>
+
+          <article class="card phase" id="phase6">
+            <div class="phase-top">
+              <div>
+                <span class="badge gold">oss / agi</span>
+                <h3 class="phase-title">Phase 6 — Deep AI and OSS</h3>
+              </div>
+              <div class="check">long horizon</div>
+            </div>
+            <p class="phase-desc">
+              Fine-tuning, RAG, open-source contributions, and multimodal experiments.
+            </p>
+            <ul>
+              <li>LoRA / fine-tuning</li>
+              <li>RAG pipelines</li>
+              <li>Open-source PRs</li>
+              <li>Creative ML</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </section>
   </main>
 </body>
 </html>
